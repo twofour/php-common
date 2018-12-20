@@ -14,19 +14,19 @@ Default: 10 (seconds)
 
 ### PHP_INPUT_VARS_LIMIT
 
-Default: 128
+Default: 2048
 
 ### PHP_MEMORY_LIMIT
 
-Default: 64M
+Default: 256M
 
 ### PHP_POST_SIZE_LIMIT
 
-Default: 8M
+Default: 32M
 
 ### PHP_SOCKET_TIMEOUT
 
-Default: 10 (seconds)
+Default: 30 (seconds)
 
 ### PHP_TIMEZONE
 
@@ -34,7 +34,7 @@ Default: Europe/Berlin
 
 ### PHP_TIME_LIMIT
 
-Default: 10 (seconds)
+Default: 30 (seconds)
 
 ### PHP_UPLOAD_FILES_LIMIT
 
@@ -42,4 +42,4 @@ Default: 8
 
 ### PHP_UPLOAD_SIZE_LIMIT
 
-Default: 8M
+Default: 32M
