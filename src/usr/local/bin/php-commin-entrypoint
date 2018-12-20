@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "$APPLICATION_ENV" = "development" ]; then
+    composer-extension-install
+fi
+
+exec "$@"

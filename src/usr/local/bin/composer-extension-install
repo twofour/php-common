@@ -1,0 +1,13 @@
+#!/bin/sh
+
+composer_file=/var/www/html/composer.json
+
+echo Check if $composer_file exists
+if [ ! -f "$composer_file" ]; then
+    echo No composer.json found >&2
+    exit 0
+fi
+
+extensions=$(composer-extension-extract $composer_file)
+echo Found php extensions $extensions in $composer_file
+echo $extensions | xargs -t apk add --no-cache

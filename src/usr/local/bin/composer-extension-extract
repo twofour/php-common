@@ -1,0 +1,3 @@
+#!/bin/sh
+
+jq '.require | to_entries[] | select(.key | contains("ext-")) | ( .key | sub("ext-"; "php7-"))' $1
