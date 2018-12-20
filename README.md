@@ -1,3 +1,7 @@
+# php-common
+
+Base image to share the configuration files.
+
 ## Environment variables
 
 ### PHP_ERROR_REPORTING
